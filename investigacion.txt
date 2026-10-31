@@ -1,0 +1,40 @@
+Git: Es un sistema de control de versiones distribuido. Sirve para guardar el historial de cambios de tu código y poder volver atrás si algo sale mal.
+
+GitHub:Es una plataforma en la nube para alojar repositorios Git. Es el repositorio remoto donde se sube el código para colaborar y respaldar.
+
+Repositorio: Es el archivo o espacio digital donde se crea para almacenar, iniciar, empezar a ejecutar comandos del proyecto a realizarse.
+
+- Repositorio local: refiere a la interaccion de almacenar el proyecto en el propio PC a esto solo se clasifica como git
+- Repositorio REmoto: refiere a creal el proyecto digital en un servidor en linea o la nuve, a esto se clasifica como Git Hub
+
+Direccion de Trabajo: es el lugar, carpeta o archivo fisico creado en la PC donde se almacena, edita, borra , agraga y ect. el proyecto.
+
+Area de Preparacion : Es una zona intermedia  y de preparcion donde seleccionas y agrupas los cambios que quieres incluir en tu próximo guardado (commit) antes de hacerlo oficial los tres paso de archivos son:
+    - Modificar el Archivo
+    - preparar el archivo
+    - se guarda permanentemente
+
+Comit: Sirve para capturar un momento especifico y para guardarla permanentemente creando puntos de restauracion, organizar el proyecto y  fasilitando el trabajo en equipo
+
+Rama Principal: sirve para crear una línea de desarrollo independiente dentro del proyecto, se podria alterar el proyecto pero no se podra alterar el codigo principal, asimismo, sirve para trabajar en equipo, podemos experimentar de forma segura.
+
+Rama Secundaria : es una copia de seguridad temporal que se crea a partir de la rama principal para hacer un trabajo específico, vive en el mismo repositorio pero no ve lo que pasa en los demas
+
+
+Identidad y Ayuda:
+
+- git config -- gloval user , name;
+- git config -- gloval user , email:
+
+git config: Llama a la herramienta de configuración de Git.
+global: Indica que esta configuración se aplicará a todos los repositorios de tu computadora. Solo necesitas hacerlo una vez
+user.name: La propiedad que guarda tu nombre se recomienda usar el mismo nombre que tienes en GitHub
+user.email: La propiedad que guarda tu correo se recomienda usar el mismo correo con el que te registraste en GitHub
+
+- git version
+- git help
+
+git version Comando de Verificación: Es una instrucción del sistema que le pide a tu terminal comprobar si Git está instalado correctamente en tu computadora. Como respuesta, te devolverá el número exacto de la versión de software que tienes ejecutándose (por ejemplo: git version 2.45.0).
+sirve para diagnosticar si necesitas actualizar Git o para asegurarte de que tu entorno de desarrollo cumple con los requisitos mínimos de un proyecto
+
+Crear Obtener y Revisar :
